@@ -1,8 +1,14 @@
+**This Boxen module is now deprecated. The advised method for installing applications with Boxen is to now use [homebrew-cask](http://caskroom.io/). Add the following to your manifest to install Chromecast using brewcask:**
+
+```puppet
+package { 'chromecast': provider => 'brewcask' }
+```
+
+---
+
 # Chromecast Puppet Module for Boxen
 
 Installs [Chromecast](http://chromecast.com).
-
-[![Build Status](https://travis-ci.org/nickpellant/puppet-chromecast.svg?branch=master)](https://travis-ci.org/nickpellant/puppet-chromecast)
 
 ## Usage
 
